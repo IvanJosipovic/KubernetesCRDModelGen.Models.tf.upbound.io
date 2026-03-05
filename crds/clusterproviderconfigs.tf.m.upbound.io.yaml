@@ -7,11 +7,11 @@ metadata:
 spec:
   group: tf.m.upbound.io
   names:
+    kind: ClusterProviderConfig
     categories:
     - crossplane
     - provider
     - terraform
-    kind: ClusterProviderConfig
     listKind: ClusterProviderConfigList
     plural: clusterproviderconfigs
     singular: clusterproviderconfig

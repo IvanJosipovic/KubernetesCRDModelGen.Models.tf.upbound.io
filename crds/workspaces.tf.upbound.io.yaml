@@ -7,11 +7,11 @@ metadata:
 spec:
   group: tf.upbound.io
   names:
+    kind: Workspace
     categories:
     - crossplane
     - managed
     - terraform
-    kind: Workspace
     listKind: WorkspaceList
     plural: workspaces
     singular: workspace
